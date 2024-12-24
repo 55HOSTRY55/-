@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Bot GUI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <script>
+        function showMessage(message) {
+            alert(message);
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Telegram Bot Interface</h1>
+        <p>Click a button below to trigger an action:</p>
+        <button onclick="showMessage('You clicked Button 1!')">Button 1</button>
+        <button onclick="showMessage('You clicked Button 2!')">Button 2</button>
+        <button onclick="showMessage('You clicked Button 3!')">Button 3</button>
+    </div>
+</body>
+</html>
